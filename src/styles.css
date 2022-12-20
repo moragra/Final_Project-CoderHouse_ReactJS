@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBar ul {
+  list-style-type: none;
+}
+
+.NavBar ul li {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+}
+
+.NavBar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.CartWidget {
+  display: flex;
+}
+
+.CartWidget a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  display: flex;
+}
+
+.ItemListContainer span {
+  margin: 5px;
+  padding: 5px;
+}
